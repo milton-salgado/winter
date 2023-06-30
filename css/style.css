@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    cursor: url('data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAADGDdQAAAAAAE1KSADPhTYA+vTwAAoKCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREREREREREREREREREREREREREREREREREREREREREREREjIRETIyMjERERERERERERIyMRIyMjIyERERERERERESMjIyNEREMjEREREREREREREyMkREREIyERERERERERERMjREVVREMhERERERERERMjJERUVFREIREREREREREjIxRERFRERBERERERERERIyEUREVVREQRERERERERESMRFEREREREERERERERERERERREVERURBERERERERERERFERERERERBERERERERERERQERERERAQREREREREREzEUAEMzM0AEERERERERETMzEURCIiJEQREREREREREzMiIiIiIiIRERERERERERMzMiIiIiIiERERERERERERMxEiIiIiIRERERERERERERERESIiERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERH///////////+PAf//hgD//4AAf//wAD//8AA//8AAP/+EAH//jAB//5wAf//8AH//+AA///gAP/+YAD//DAB//wAB//8AAf//mAP///4f/////////////////////////////////////////////////////////////////w=='), auto;
+}
+
+header {
+    background-color: #4B93BF;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+    color: #E4EEF1;
+}
+
+header section {
+    width: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header section figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header nav ul li:hover {
+    font-weight: bold;
+}
+
+main .aboutWinterWorld {
+    height: 50vh;
+    background-color: #E4EEF1;
+    font-size: 20px;
+    color: #0F468C;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .aboutWinterWorld p {
+    width: 40vw;
+}
+
+main .aboutWinterWorld figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .aboutWinterBrazil {
+    height: 35vh;
+    background-color: #4B93BF;
+    font-size: 32px;
+    color: #E4EEF1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .aboutWinterBrazil figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .aboutWinterBrazil p {
+    width: 40vw;
+}
+
+main .polarBearsGallery {
+    height: 50vh;
+    background-color: #E4EEF1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .polarBearsGallery figure {
+    width: 95vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .polarBearsGallery figure img {
+    width: 21vw;
+    height: 14vw;
+}
+
+footer {
+    height: 25vh;
+    background-color: #4B93BF;
+    font-size: 20px;
+    color: #E4EEF1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer section {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer nav ul {
+    width: 15vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+}
+
+footer nav ul li a figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav ul li a figure img {
+    width: 64px;
+    height: 64px;
+}
+
+footer section p {
+    text-align: center;
+}
+
+footer .winterPenguin {
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
